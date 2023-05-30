@@ -41,7 +41,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-color:#395a3a ;
+  background-color: #395a3a;
 
   display: flex;
   align-items: center;
@@ -62,8 +62,9 @@ main {
 .custom-container {
   height: 100vh;
 }
+
 .custom-container {
-  min-height: 80vh; 
+  min-height: 80vh;
 }
 
 #custom-container {
@@ -177,17 +178,19 @@ main {
   left: 46.5%;
   top: 45%;
   height: 11rem;
-  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
 
 }
+
 @keyframes fadeAnimation {
   0% {
     opacity: 0;
-    transform : rotate(0deg);
+    transform: rotate(0deg);
   }
+
   100% {
     opacity: 1;
-    transform : rotate(900deg);
+    transform: rotate(900deg);
   }
 }
 
@@ -227,9 +230,12 @@ main {
 }
 
 /* ------------------- */
-@media (max-width: 767px) { /*appareils avec une largeur maximale de 767 pixels */
+@media (max-width: 600px) {
+
+  /*appareils avec une largeur maximale de 767 pixels */
   body {
-    transform: rotate(-90deg); /* Rotation de 90 degrés (anti-horaire)*/
+    transform: rotate(-90deg);
+    /* Rotation de 90 degrés (anti-horaire)*/
     transform-origin: left top;
     width: 100vh;
     overflow-x: hidden;
@@ -239,7 +245,3 @@ main {
   }
 
 }
-
-
-
-
